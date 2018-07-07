@@ -1,4 +1,4 @@
-/*
+﻿/*
 Navicat MySQL Data Transfer
 
 Source Server         : CKGL
@@ -49,11 +49,11 @@ CREATE TABLE `productinfo` (
 -- ----------------------------
 -- Records of productinfo
 -- ----------------------------
-INSERT INTO `productinfo` VALUES ('001', '哇哈哈', '3', '389', '饮料', '河南大学');
-INSERT INTO `productinfo` VALUES ('002', '营养快线', '4', '414', '饮料', '河南科技大学');
-INSERT INTO `productinfo` VALUES ('003', '饼干', '5', '389', '零食', '河南大学');
-INSERT INTO `productinfo` VALUES ('004', '袜子', '3', '389', '生活用品', '河南大学');
-INSERT INTO `productinfo` VALUES ('005', '加多宝', '4', '389', '饮料', '河南大学');
+INSERT INTO `productinfo` VALUES ('001', '哇哈哈', '3', '389', '饮料', '华侨大学');
+INSERT INTO `productinfo` VALUES ('002', '营养快线', '4', '414', '饮料', '厦门理工大学');
+INSERT INTO `productinfo` VALUES ('003', '饼干', '5', '389', '零食', '厦门大学');
+INSERT INTO `productinfo` VALUES ('004', '袜子', '3', '389', '生活用品', '华侨大学');
+INSERT INTO `productinfo` VALUES ('005', '加多宝', '4', '389', '饮料', '华侨大学');
 
 -- ----------------------------
 -- Table structure for `supplier`
@@ -68,11 +68,11 @@ CREATE TABLE `supplier` (
 -- Records of supplier
 -- ----------------------------
 INSERT INTO `supplier` VALUES ('');
-INSERT INTO `supplier` VALUES ('河南大学');
-INSERT INTO `supplier` VALUES ('河南科技大学');
+INSERT INTO `supplier` VALUES ('华侨大学');
+INSERT INTO `supplier` VALUES ('厦门理工大学');
 INSERT INTO `supplier` VALUES ('清华大学');
-INSERT INTO `supplier` VALUES ('郑州大学');
-INSERT INTO `supplier` VALUES ('郑州轻工业学院');
+INSERT INTO `supplier` VALUES ('厦门大学');
+INSERT INTO `supplier` VALUES ('厦门诚毅学院');
 
 -- ----------------------------
 -- Table structure for `supplierinfo`
@@ -90,8 +90,8 @@ CREATE TABLE `supplierinfo` (
 -- ----------------------------
 -- Records of supplierinfo
 -- ----------------------------
-INSERT INTO `supplierinfo` VALUES ('河南大学', '加多宝', '4', '12355355', '焦作');
-INSERT INTO `supplierinfo` VALUES ('河南科技大学', '饼干', '5', '4125412034', '洛阳');
+INSERT INTO `supplierinfo` VALUES ('华侨大学', '加多宝', '4', '12355355', '焦作');
+INSERT INTO `supplierinfo` VALUES ('厦门理工大学', '饼干', '5', '4125412034', '厦门');
 INSERT INTO `supplierinfo` VALUES ('清华大学', '袜子', '3', '1532654564', '北京');
-INSERT INTO `supplierinfo` VALUES ('郑州大学', '营养快线', '4', '15234515456', '中原区');
-INSERT INTO `supplierinfo` VALUES ('郑州轻工业学院', '哇哈哈', '3', '156354154', '科学大道');
+INSERT INTO `supplierinfo` VALUES ('华侨大学', '营养快线', '4', '15234515456', '集美区');
+INSERT INTO `supplierinfo` VALUES ('华侨大学计算机科学与技术学院', '哇哈哈', '3', '156354154', '科学大道');
